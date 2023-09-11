@@ -1,0 +1,19 @@
+.product-description {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+.image {
+  max-width: 280px;
+  overflow: hidden;
+  z-index: 0;
+}
+.image img {
+  width: 100%;
+  height: auto;
+}

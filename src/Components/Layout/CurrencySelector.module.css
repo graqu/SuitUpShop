@@ -1,0 +1,39 @@
+.selector {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  display: grid;
+  color: white;
+  background-color: #333;
+  cursor: pointer;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.selector:hover {
+  background-color: #b94517;
+}
+
+.selector select {
+  appearance: none;
+  background-color: #333;
+  border: none;
+  padding: 1em;
+  margin: 0;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  z-index: 1;
+}
+.selector select:hover {
+  background-color: #b94517;
+}
+.selector select::-ms-expand {
+  display: none;
+}

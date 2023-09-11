@@ -1,0 +1,32 @@
+.sort {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  text-align: right;
+}
+.sort label {
+  margin-right: 1rem;
+}
+.sort select {
+  appearance: none;
+  background-color: transparent;
+  padding: 0.2em;
+  margin: 0;
+  width: 200px;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+.sort select::-ms-expand {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .sort {
+    flex-direction: row;
+  }
+}
