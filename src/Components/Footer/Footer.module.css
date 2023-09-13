@@ -1,7 +1,15 @@
 .footer {
-  padding: 0.6em;
-  background-color: #3f2e3e;
-  color: #fff;
-  width: 100%;
-  text-align: center;
+	padding: 0.6em;
+	background-color: #3f2e3e;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+}
+.link {
+	text-decoration: none;
+	color: #ddd;
+	cursor: pointer;
+}
+.link:hover {
+	color: #2c0d00;
 }
