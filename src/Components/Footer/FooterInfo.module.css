@@ -1,0 +1,28 @@
+.footer-info {
+	margin: 20px 20px 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer-column {
+	margin: 0 24px;
+}
+.icon {
+	margin: 0.2em;
+	text-decoration: none;
+	color: #ddd;
+	font-size: 3.2rem;
+	transition: color 0.3s;
+	cursor: pointer;
+}
+.icon:hover {
+	color: #2c0d00;
+}
+
+@media (min-width: 992px) {
+	.footer-info {
+		display: flex;
+		margin: 20px auto;
+		max-width: 900px;
+	}
+}
